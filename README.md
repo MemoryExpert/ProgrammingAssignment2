@@ -8,7 +8,7 @@ cachematrix.R contains functions which are used to compute the inverse of a squa
 invertible matrix.  If the inverse of the matrix has already been computed, the inverse is returned from a cache.
 
 ## Example usage
-
+````
 > source('~/R-Projects/Week 3/ProgrammingAssignment2/cachematrix.R')
 > testmatrix <- makeCacheMatrix()
 > x <- matrix(rnorm(16), 4, 4)
@@ -40,3 +40,4 @@ getting cached inverse of matrix
 [2,]  0.41046765 -0.2610047 -0.5762544 -0.26019852
 [3,]  0.24001040 -0.1145251  0.3841270  0.40473374
 [4,]  0.24997329 -0.3455546  0.3042157 -0.23955018
+````
